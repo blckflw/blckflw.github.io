@@ -287,9 +287,10 @@
     }
 
     .window {
+        height: auto;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 23em;
         height: auto;
         background-color: #1e1e1e;
         border: 2px solid #fff;
@@ -302,10 +303,12 @@
 
     .tabs {
         display: flex;
+        width: 100%;
         background-color: #ccc;
     }
 
     .tab {
+        width: auto;
         padding: 10px;
         border: none;
         background-color: inherit;
