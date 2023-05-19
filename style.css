@@ -218,6 +218,8 @@
     }
 
     .header {
+        padding-left: 1em;
+        padding-right: 1em;
         margin-right: auto;
         margin-left: auto;
         font-size: 6vh;
@@ -232,6 +234,8 @@
     }
 
     .gradient {
+        padding-left: 1em;
+        padding-right: 1em;
         margin-right: auto;
         margin-left: auto;
         font-size: 4vh;
