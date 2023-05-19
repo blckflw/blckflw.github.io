@@ -1,0 +1,306 @@
+@media (min-width:1064px) {
+
+    .logo {
+        max-width: 150px;
+        width: auto;
+        height: auto;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: #020e15;
+
+    }
+
+    .nav {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        z-index: 9999;
+    }
+
+    .header {
+        font-size: 10vh;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'syne', sans-serif;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .gradient {
+        font-size: 7vh;
+        width: auto;
+        padding-left: 2vh;
+        background: linear-gradient(to right, #faa62c, #d82b2a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'syne', sans-serif;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 15vh;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-container {
+        width: auto;
+        text-align: center;
+        font-family: DM Sans, sans-serif;
+        font-weight: bold;
+        font-size: 5vh;
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .texth1 {
+        font-family: DM Sans, sans-serif;
+        font-weight: bold;
+        font-size: 5vh;
+        margin-right: 10px;
+    }
+
+    .typing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -7vh;
+        margin-bottom: 1vh;
+        color: white;
+    }
+
+
+    .text-container #typing-text {
+        color: #faa62c;
+    }
+
+    #typing-text {
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+
+    .footer {
+        margin-bottom: 0px;
+        position: absolute;
+    }
+
+    .window {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70vh;
+        height: 30vh;
+        background-color: #1e1e1e;
+        border: 2px solid #fff;
+        z-index: 9998;
+        border-radius: 12px;
+    }
+
+    .title-bar {
+        padding: 5px;
+        background-color: #ccc;
+        cursor: grab;
+        font-family: 'DM Sans', sans-serif;
+        background-color: #fff;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .title {
+        font-weight: bold;
+    }
+
+    .content {
+        font-family: DM Sans, sans-serif;
+        color: white;
+        overflow: auto;
+        height: calc(100% - 90px);
+        padding: 10px;
+    }
+
+    .wincontainer {
+        display: column;
+    }
+
+    .tabs {
+        display: flex;
+        background-color: #ccc;
+    }
+
+    .tab {
+        padding: 10px;
+        border: none;
+        background-color: inherit;
+        cursor: pointer;
+        font-family: DM Sans, sans-serif;
+    }
+
+    .tab:focus {
+        outline: none;
+    }
+
+    .tab.active {
+        background-color: #1e1e1e;
+        color: white;
+    }
+
+    .tab-content {
+        display: none;
+        padding: 10px;
+        margin-top: -20px;
+        background-color: #1e1e1e;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+
+    .interest-icon {
+        margin-right: 5px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:1064px) {
+
+    .logo {
+        max-width: 150px;
+        width: auto;
+        height: auto;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #020e15;
+
+    }
+
+    .nav {
+        position: relative;
+        padding-top: 5vh;
+        padding-bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        z-index: 9999;
+    }
+
+    .header {
+        font-size: 6vh;
+        width: auto;
+        display: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'syne', sans-serif;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .gradient {
+        font-size: 4vh;
+        width: auto;
+        background: linear-gradient(to right, #faa62c, #d82b2a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'syne', sans-serif;
+        margin-top: -2em;
+    }
+
+    .wrapper {
+        display: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .text-container {
+        width: auto;
+        text-align: center;
+        font-family: DM Sans, sans-serif;
+        font-weight: bold;
+        font-size: 3vh;
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .texth1 {
+        text-align: center;
+        font-family: DM Sans, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 3vh;
+        margin-right: 7px;
+    }
+
+    .typing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -5vh;
+    }
+
+    .footer {
+        margin-bottom: 0px;
+        position: absolute;
+    }
+
+    #typing-text {
+        color: #faa62c;
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+    
+    .window {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+        background-color: #1e1e1e;
+        border: 2px solid #fff;
+        z-index: 9998;
+        border-radius: 12px;
+        color: white;
+        font-family: DM Sans, sans-serif;
+        padding: 20px;
+    }
+    
+    .tab {
+        display: none;
+    }
+    
+    .title {
+        display: none;
+    }
+}
