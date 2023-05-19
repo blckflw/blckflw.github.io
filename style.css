@@ -303,7 +303,6 @@
 
     .tabs {
         display: flex;
-        width: 60%;
         background-color: #ccc;
     }
 
@@ -362,6 +361,7 @@
         font-family: DM Sans, sans-serif;
         color: white;
         overflow: auto;
+        width: 90%;
         height: calc(100% - 90px);
         padding: 10px;
     }
