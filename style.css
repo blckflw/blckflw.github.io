@@ -218,6 +218,8 @@
     }
 
     .header {
+        margin-right: auto;
+        margin-left: auto;
         font-size: 6vh;
         width: auto;
         display: column;
@@ -230,6 +232,8 @@
     }
 
     .gradient {
+        margin-right: auto;
+        margin-left: auto;
         font-size: 4vh;
         width: auto;
         background: linear-gradient(to right, #faa62c, #d82b2a);
@@ -281,7 +285,7 @@
         text-decoration: underline;
         text-decoration-color: white;
     }
-    
+
     .window {
         margin-left: auto;
         margin-right: auto;
@@ -295,11 +299,11 @@
         font-family: DM Sans, sans-serif;
         padding: 20px;
     }
-    
+
     .tab {
         display: none;
     }
-    
+
     .title {
         display: none;
     }
